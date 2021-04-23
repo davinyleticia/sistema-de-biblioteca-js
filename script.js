@@ -18,13 +18,13 @@ function showData(event) {
             <strong>Autor:</strong> ${setAutor}, <strong>Título:</strong> ${setTitulo},
             <strong>ISBN:</strong> ${setISBN}, <strong>Publicaçao:</strong> ${setPublicacao},
             <strong>Data de Inserção:</strong> ${setDate}, ${setSchedule}, <br><br>
-            <a href="#" class="delete">Deletar</a> 
+            <a href="#" class="delete" id="delete">Deletar</a> 
             <br><br>
         </li>
     </ul>
     `
     clearDate()
-}
+    }
 }
 
 function clearDate(){
