@@ -12,14 +12,15 @@ function showData(event) {
         alert ("Preencha todos os campos")
     } else {
     document.getElementById('resposta').innerHTML += `
-
     <ul>
-        <li>
-            <strong>Autor:</strong> ${setAutor}, <strong>Título:</strong> ${setTitulo},
-            <strong>ISBN:</strong> ${setISBN}, <strong>Publicaçao:</strong> ${setPublicacao},
-            <strong>Data de Inserção:</strong> ${setDate}, ${setSchedule}, <br><br>
-            <a href="#" class="delete" id="delete">Deletar</a> 
-            <br><br>
+        <li><strong>Autor:</strong> ${setAutor} </li>
+        <li><strong>Título:</strong> ${setTitulo}</li>
+        <li><strong>ISBN:</strong> ${setISBN}</li>
+        <li><strong>Publicaçao:</strong> ${setPublicacao}</li>
+        <li><strong>Data de Inserção:</strong> ${setDate}, ${setSchedule}</li>
+        <br>
+        [ <a href="#" class="delete">🗑️ Deletar</a> ] 
+        <br>
         </li>
     </ul>
     `
@@ -38,6 +39,6 @@ function clearDate(){
 document.getElementById('resposta').addEventListener('click', function(event){
 
     if(event.target.className === "delete"){
-        event.target.parantElement.remove();
+        event.target.parentElement.remove();
     }
 })
