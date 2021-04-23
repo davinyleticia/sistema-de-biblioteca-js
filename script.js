@@ -8,6 +8,9 @@ function showData(event) {
     let setDate = new Date().toLocaleDateString('pt-br');
     let setSchedule = new Date().toLocaleTimeString('pt-br');
 
+    if (setAutor  === "" || setTitulo === "" || setISBN === "" || setPublicacao === ""  ){
+        alert ("Preencha todos os campos")
+    } else {
     document.getElementById('resposta').innerHTML += `
 
     <ul>
@@ -21,6 +24,7 @@ function showData(event) {
     </ul>
     `
     clearDate()
+}
 }
 
 function clearDate(){
