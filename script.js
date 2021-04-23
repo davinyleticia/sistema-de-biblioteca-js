@@ -19,7 +19,7 @@ function showData(event) {
         <li><strong>Publicaçao:</strong> ${setPublicacao}</li>
         <li><strong>Data de Inserção:</strong> ${setDate}, ${setSchedule}</li>
         <br>
-        [ <a href="#" class="delete">🗑️ Deletar</a> ] 
+        [ 🗑 <a href="#" class="delete">Deletar</a> ] 
         <br>
         </li>
     </ul>
