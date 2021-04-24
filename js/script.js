@@ -21,7 +21,6 @@ function showData(event) {
                 <br>
                     <a href="#" class="delete">🗑 Deletar</a>
             </ul>
-    <hr>
     `
     clearDate()
     }
