@@ -7,106 +7,7 @@
     <title>📚 Sistema de Biblioteca</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
-    <style>
-        *{
-            margin: 0%;
-        }
-        body{
-            background-color: rgb(128, 106, 148);
-        }
-        header, main{
-            margin-left: 30%;
-            margin-right: 30%;
-        }
-        header{
-            margin-top: 2%;
-        }
-
-        main{
-            margin-top: 1%;
-            margin-bottom: 13px;
-            border-style: solid;
-            border-color: lightcoral;
-            border-width: 2px;
-            padding: 12px;
-        }
-        header .logo{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-        header h1{
-            margin-left: 10px;
-            text-align: center;
-            font-family: 'Fascinate Inline', cursive;
-        }
-        form{
-            display: flex; 
-            flex-direction: column; 
-            text-align: center;
-            padding: 8%;
-        }
-        header label{
-            margin-top: 5px;
-            font-size: 18px;
-            color: rgb(255, 255, 255);
-
-        }
-    
-        .botao{
-            margin-top: 22px;
-            
-        }
-        input[type="text"], input[type="date"]{
-            text-decoration: none;
-            margin-left: 1px;
-            padding-left: 1px;
-            font-size: 20px;
-            border-radius: 30px 10px 30px 10px;
-            border-style:solid;
-            border-width: 1px;
-            padding: 12px;
-            color:rgb(0, 0, 0);
-            border-color: #000;
-
-        }
-
-        input[type="submit"]{
-            text-decoration: none;
-            margin-left: 1px;
-            padding-left: 5px;
-            font-size: 30px;
-            border-radius: 30px 10px 30px 10px;
-            border-style:solid;
-            border-width: 1px;
-            padding: 12px;
-            color:rgb(0, 0, 0);
-            border-color: rgb(48, 46, 46);
-        }
-
-        input[type="submit"]:link, input[type="submit"]:visited, input[type="submit"]:active {
-            text-decoration: none;
-            background-color:rgb(0, 0, 0);
-            transition: 0.8s;
-
-        }
-        input[type="submit"]:hover { 
-            transition: 0.3s;
-            text-decoration:none; 
-            background-color:rgb(94, 185, 132);
-            color:darkslategray;
-            padding: 12px;
-            border-radius: 10px 30px 10px 30px;
-        }
-
-        input[type="text"], input[type="date"]{ 
-            border:5px solid rgb(150, 56, 107);
-        }
-
-        input[type="text"]:hover, input[type="date"]:hover, input[type="text"]:visited, input[type="date"]:hover, input[type="text"]:active,input[type="date"]:active {
-            border:5px solid #a9d1b3;
-        }
-</style>
+    <link href="css/script.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -127,11 +28,11 @@
                 </div>
             </form> 
         </header>
-        <main>
             <div class="resposta" id="resposta"></div>
-        </main>
+        <footer>
+            Todos Direitos Reservado - Daviny 2021 - Projeto  para curso da Reprograma
+        </footer>
 
-
-    <script src="script.js"> </script>
+    <script src="./js/script.js"> </script>
 </body>
 </html>
